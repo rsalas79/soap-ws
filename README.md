@@ -67,6 +67,9 @@ You can confidently use soap-ws in your commercial project.
 
 ### Quick-start
 
+### To build jar with dependencies
+mvn clean compile assembly:single 
+
 #### Add soap-ws to your maven project
 In order to use soap-ws in your project you have to declare soap-ws in the dependencies section of your pom.xml. You can mix and match soap-builder, soap-client, soap-server artifacts, depending on the fact what you want to achieve.
 ```xml
